@@ -42,8 +42,8 @@ let map = L.map('mapid', {
 let baseMaps = {
   "Streets": streets,
   "Satellite": satelliteStreets,
-  "Dark Navigation": dark,
-  "Light Navigation": light
+  "Dark": dark,
+  "Light": light
 };
 
 // 1. Add a 2nd layer group for the tectonic plate data.
